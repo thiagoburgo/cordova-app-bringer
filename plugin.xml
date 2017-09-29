@@ -14,9 +14,8 @@
 	<platform name="android">
 		<source-file src="src/android/AppBringer.java" target-dir="src/br/burgo/appbringer/" />
 		<config-file target="res/xml/config.xml" parent="/*">
-			<feature name="bringtofront">
+			<feature name="AppBringer">
 				<param name="android-package" value="br.burgo.appbringer.AppBringer" />
-				<param name="onload" value="true" />
 			</feature>
 		</config-file>
 		<js-module src="www/app-bringer.js" name="AppBringer">
