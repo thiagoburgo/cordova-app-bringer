@@ -15,7 +15,7 @@ import android.util.Log;
  */
 public class AppBringer extends CordovaPlugin {
   @Override
-  public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+  public boolean execute(String action, JSONArray args, CallbackContext context) throws JSONException {
     Log.d("Bring", "action is:" + action);
     if (action.equals("bringToFront")) {
       Log.d("Bring", "I see you baby");
