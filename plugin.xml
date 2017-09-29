@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin 
-	xmlns="http://apache.org/cordova/ns/plugins/1.0" id="br.burgo.appbringer" version="1.0.">
+	xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-app-bringer" version="1.0.">
 	<name>App Bringer</name>
 	<description>Brings current activity to front or send to back</description>
 	<author>Thiago Burgo</author>

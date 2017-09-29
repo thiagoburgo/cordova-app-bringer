@@ -24,14 +24,14 @@ public class AppBringer extends CordovaPlugin {
       PendingIntent pendingIntent = PendingIntent.getActivity(cordova.getActivity(), 0, notificationIntent, 0);
       try {
         pendingIntent.send();
-        context.sendPluginResult(new PluginResult(PluginResult.Status.OK));
+        //context.sendPluginResult(new PluginResult(PluginResult.Status.OK));
       } catch (PendingIntent.CanceledException e) {
         e.printStackTrace();
-        context.sendPluginResult(new PluginResult(PluginResult.Status.ERROR));
+        //context.sendPluginResult(new PluginResult(PluginResult.Status.ERROR));
       }
       return true;
     } else {
-      context.sendPluginResult(new PluginResult(PluginResult.Status.INVALID_ACTION));
+      //context.sendPluginResult(new PluginResult(PluginResult.Status.INVALID_ACTION));
     }
     return false;
   }

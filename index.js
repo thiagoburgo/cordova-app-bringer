@@ -25,7 +25,7 @@ var AppBringer = (function (_super) {
     function AppBringer() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    AppBringer.prototype.bringToFront = function (successCallback, failCallBack) {
+    AppBringer.prototype.bringToFront = function () {
         return;
     };
     return AppBringer;
@@ -33,7 +33,7 @@ var AppBringer = (function (_super) {
 __decorate([
     Cordova(),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Function, Function]),
+    __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
 ], AppBringer.prototype, "bringToFront", null);
 AppBringer = __decorate([

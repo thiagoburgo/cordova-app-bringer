@@ -14,7 +14,7 @@ import "rxjs/add/observable/merge";
 export class AppBringer extends IonicNativePlugin {
 
   @Cordova()
-  bringToFront(successCallback?: () => void, failCallBack?: (err?: Error) => void): void {
+  bringToFront(): void {
     return;
   }
 

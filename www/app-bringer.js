@@ -1,8 +1,8 @@
 var exec = require('cordova/exec');
 
 function AppBringer() {
-    this.bringToFront = function(successCallback, failCallBack) {
-        exec(successCallback, failCallBack, 'AppBringer', 'bringToFront', []);
+    this.bringToFront = function() {
+        exec(null, null, 'AppBringer', 'bringToFront', []);
     };
 }
 
